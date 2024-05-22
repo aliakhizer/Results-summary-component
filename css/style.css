@@ -1,34 +1,49 @@
 @font-face {
-    font-family: 'hankenGrotesk';
-    font-weight: 100 900;
-    font-display: swap;
-    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-family: "hankenGrotesk";
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
-:root{
- --primary : hsl(0, 100%, 67%)
---econdary : hsl(39, 100%, 56%)
---accent: hsl(166, 100%, 37%)
---tertiary blue: hsl(234, 85%, 45%)
---Light-slate blue : hsl(252, 100%, 67%)
---Light-royal blue : hsl(241, 81%, 54%)
---Violet : hsla(256, 72%, 46%, 1)
---Persian : hsla(241, 72%, 46%, 0)
-
+:root {
+  --primary: hsl(0, 100%, 67%);
+  --secondary: hsl(39, 100%, 56%);
+  --accent: hsl(166, 100%, 37%);
+  --tertiary-blue: hsl(234, 85%, 45%);
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet: hsla(256, 72%, 46%, 1);
+  --persian: hsl(225, 31%, 27%);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-body{
-    font-family: 'hankenGrotesk';
-    font-size: 1.125rem;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
+body {
+  font-family: "hankenGrotesk";
+  font-size: 1.125rem;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
+.result-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+button {
+  padding: 1rem 2rem;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button:hover,
+button:focus-visible {
+  background-color: var(--persian);
+  color: white;
+}
+
