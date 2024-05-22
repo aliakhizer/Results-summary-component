@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'hankenGrotesk';
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
 :root{
  --primary : hsl(0, 100%, 67%)
 --econdary : hsl(39, 100%, 56%)
@@ -14,8 +20,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+    display: block;
+    max-width: 100%;
+}
 
 body{
+    font-family: 'hankenGrotesk';
+    font-size: 1.125rem;
+    min-height: 100vh;
     display: grid;
-    place-content: center;
+    place-items: center;
 }
