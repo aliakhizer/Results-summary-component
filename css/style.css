@@ -1,0 +1,17 @@
+:root{
+ --primary : hsl(0, 100%, 67%)
+--econdary : hsl(39, 100%, 56%)
+--accent: hsl(166, 100%, 37%)
+--tertiary blue: hsl(234, 85%, 45%)
+--Light-slate blue : hsl(252, 100%, 67%)
+--Light-royal blue : hsl(241, 81%, 54%)
+--Violet : hsla(256, 72%, 46%, 1)
+--Persian : hsla(241, 72%, 46%, 0)
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
