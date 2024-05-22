@@ -15,3 +15,7 @@
   box-sizing: border-box;
 }
 
+body{
+    display: grid;
+    place-content: center;
+}
